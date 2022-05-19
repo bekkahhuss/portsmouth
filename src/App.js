@@ -1,18 +1,26 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Header } from './components/header'
-import { Body } from './components/body'
-import { Footer } from './components/footer'
+import { Link } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Header />
-      <Body />
-      <Footer />
+      <h1>Test</h1>
+       <nav
+        style={{
+          borderBottom: "solid 1px",
+          paddingBottom: "1rem",
+        }}
+      >
+      <Link to="/header">Header</Link> |{" "}
+      <Link to="/body">Body</Link> |{" "}
+      <Link to="/footer">Footer</Link> |{" "}
+      </nav>
+      
     </div> 
   );
 }
 
-export default App;
+
+
