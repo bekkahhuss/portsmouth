@@ -5,11 +5,14 @@ import { Link } from "react-router-dom"
 
 export const Header = () => {
     return (
-      <Navbar bg="light" variant="light">
-        <Container>
-          <Navbar.Brand href="#home">Rebekkah Huss</Navbar.Brand>
-          <Nav className="me-auto">
-            <Link to="/body">Body</Link> | {" "}
+      <Navbar bg="dark" variant="dark">
+        <Container bd="dark">
+          <Navbar.Brand>Rebekkah Huss</Navbar.Brand>
+          <Nav>
+            <Link to="/" className="App-link"> About Me</Link>
+            <Link to="/portfolio" className="App-link">Portfolio</Link>
+            <Link to="/contact" className="App-link">Contact</Link>
+            <Link to="/resume" className="App-link">Resume</Link>
           </Nav>
         </Container>
       </Navbar>
