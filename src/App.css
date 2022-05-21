@@ -71,6 +71,10 @@
   margin: auto; 
   background-color: #074f57;
 }
+.header-test {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(52,130,139,1) 91%, rgba(46,133,150,1) 100%);
+}
 
 .footer-center {
   padding: 50%;
@@ -79,5 +83,4 @@
   height: 400px;
   width: 400px;
   margin: 5px;
-  opacity: 70%
 }
