@@ -3,7 +3,7 @@ import { Container, Col, Row } from 'react-bootstrap';
 import photo from './assets/star.png';
 import { Header } from './header';
 import { Footer } from './footer';
-
+ 
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <div>
           <Row>
             <Col>
-              <img src={photo} alt="photo" />
+              <img src={photo} alt="photo" className='profilePic' />
             </Col>
             <Col>
               <p>Short bio about me.</p>

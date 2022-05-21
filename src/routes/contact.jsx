@@ -1,15 +1,3 @@
-// import React from 'react';
-// import { Formik } from 'formik';
-// import { useFormik } from 'formik';
- 
-// export default function Contact() {
-//   return (
-    
-//   )
-// }
-
-
-
 import { Container, Form, Button, Col, Row, InputGroup } from 'react-bootstrap';
 import { Formik } from 'formik';
 import * as yup from 'yup';
