@@ -14,7 +14,7 @@ export default function Portfolio() {
             {/* Row 1*/}
             <Row className="Row-space">
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card style={{ width: "24rem"}}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Employee Profile</Card.Title>
@@ -33,7 +33,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card className='project-card' style={{ width: "24rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Employee Tracker</Card.Title>
@@ -52,7 +52,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card className='project-card' style={{ width: "24rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Social Genie</Card.Title>
@@ -77,7 +77,7 @@ export default function Portfolio() {
             {/* Row 2*/}
             <Row className="Row-space">
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card className='project-card' style={{ width: "24rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Shopping With Bitcoin</Card.Title>
@@ -100,7 +100,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card className='project-card' style={{ width: "24rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Walks Of Love</Card.Title>
@@ -122,7 +122,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card style={{ width: "24rem" }}>
+                <Card className='project-card' style={{ width: "24rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Note Taker</Card.Title>

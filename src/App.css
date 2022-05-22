@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 10px;
+  
 }
 
 .App-logo {
@@ -74,7 +75,10 @@
 .header-test {
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(52,130,139,1) 91%, rgba(46,133,150,1) 100%);
+  color: #9ece9a;
 }
+
+
 
 .footer-center {
   padding: 50%;
@@ -83,4 +87,30 @@
   height: 400px;
   width: 400px;
   margin: 5px;
+  border-radius: 50%;
+}
+.navbar-brand {
+  color: #9ece9a;
+  text-decoration: underline;
+}
+.download-link {
+  text-decoration: none;
+}
+/* .skills {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+}
+.skills h3 {
+  justify-content: center;
+}
+
+.skills p{
+  display: flex;
+  flex-wrap: wrap;
+  color: red;
+} */
+
+.extraSpace {
+  height: 200px;
 }
