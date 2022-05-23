@@ -49,7 +49,14 @@
 }
 
 .photo {
-  height: 24rem;
+  height: 6rem;
+
+}
+.cardFont {
+  font-size: smaller;
+}
+.cardButton{
+  background-color: #074f57;
 }
 .icon {
   height: 40px;
@@ -76,6 +83,10 @@
   background: rgb(2,0,36);
   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(52,130,139,1) 91%, rgba(46,133,150,1) 100%);
   color: #9ece9a;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 
@@ -114,3 +125,5 @@
 .extraSpace {
   height: 200px;
 }
+
+/* s */

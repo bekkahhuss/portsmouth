@@ -14,16 +14,16 @@ export default function Portfolio() {
             {/* Row 1*/}
             <Row className="Row-space">
               <Col>
-                <Card style={{ width: "24rem"}}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Employee Profile</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="cardFont">
                       This program manages employee information. Generates HTML
                       with employee cards containing employee records. The user
                       enters answers in the terminal via inquirer prompts.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/bekkahhuss/employee-profile"
                     >
@@ -33,16 +33,16 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className='project-card' style={{ width: "24rem" }}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Employee Tracker</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='cardFont'>
                       This tool allows business owners to view and manage the
                       departments, roles, and employees for their company. It
                       operates as a command line interface.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/bekkahhuss/employee-tracker"
                     >
@@ -52,11 +52,11 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className='project-card' style={{ width: "24rem" }}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Social Genie</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='cardFont'>
                       This application uses a NoSQL database to create an API
                       that holds the user accounts and thoughts posted on the
                       Social Genie Network. Users can share thoughts, add
@@ -64,7 +64,7 @@ export default function Portfolio() {
                       of social-genie has the ability to start the server and
                       and sync Mongoose models to the MongoDB database.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/bekkahhuss/social-genie"
                     >
@@ -77,20 +77,20 @@ export default function Portfolio() {
             {/* Row 2*/}
             <Row className="Row-space">
               <Col>
-                <Card className='project-card' style={{ width: "24rem" }}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Shopping With Bitcoin</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='cardFont'>
                       With the Crypto space heating up, people want to know what
                       they can buy with their cryptocurrencies. Our website
                       allows users to search for common products, and display
                       their price in dollars and the equivalent in Bitcoin,
-                      Ehtereum, Binance Coin, Cardano and Solana(Top 5 Cryptos
+                      Ethereum, Binance Coin, Cardano and Solana(Top 5 Cryptos
                       by Market Cap). Searches are persistent across sessions,
                       so you can pick up where you left off.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/gordonlc18/shopping_with_bitcoin"
                     >
@@ -100,11 +100,11 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className='project-card' style={{ width: "24rem" }}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Walks Of Love</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='cardFont'>
                       The Walks of Love is a full-stack website that matches pet
                       owners with freelance pet care specialists looking for new
                       friends to care about. It allows pet owners to post
@@ -112,7 +112,7 @@ export default function Portfolio() {
                       to and allows potential pet caregivers to accept those
                       opportunities.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/bdswartz/walks-of-love"
                     >
@@ -122,11 +122,11 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className='project-card' style={{ width: "24rem" }}>
+                <Card style={{ width: "12rem" }}>
                   <Card.Img variant="top" src={placeholder} className="photo" />
                   <Card.Body>
                     <Card.Title>Note Taker</Card.Title>
-                    <Card.Text>
+                    <Card.Text className='cardFont'>
                       This program allows a user to keep track of thoughts and
                       organize information be writing, saving and deleting
                       notes. The navigation page allows the user to click a
@@ -134,7 +134,7 @@ export default function Portfolio() {
                       create new ones at the click of a button. Uses JSON to
                       store notes and express JS to serve them to the server.
                     </Card.Text>
-                    <Button
+                    <Button className='cardButton'
                       variant="primary"
                       href="https://github.com/bekkahhuss/note-taker"
                     >
