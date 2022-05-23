@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin: 10px 0px 0px 10px;
+  text-decoration: none;
   
 }
 
@@ -48,15 +49,10 @@
   padding: 5px 0px 5px 0px;
 }
 
-.photo {
-  height: 6rem;
-
-}
-.cardFont {
-  font-size: smaller;
-}
-.cardButton{
-  background-color: #074f57;
+.Row-space a {
+  background-color:#9ece9a ;
+  color: black;
+  margin: 10px;
 }
 .icon {
   height: 40px;
@@ -71,13 +67,23 @@
 .supplemental-space {
   height: 100px;
 }
-
+.contactForm button {
+  background-color:#9ece9a ;
+  color: black;
+}
+.mb-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
 .footer {
   position: fixed;
   bottom: 0; 
   width: 100%;
   margin: auto; 
   background-color: #074f57;
+  
 }
 .header-test {
   background: rgb(2,0,36);
@@ -87,9 +93,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-decoration: none;
 }
 
-
+.about p {
+  padding-top: 10%;
+}
+.card-img-top {
+  margin:auto;
+  
+}
+.card-img, .card-img-bottom, .card-img-top {
+  width:50%;
+ 
+}
+.cardButton {
+  background-color:#9ece9a ;
+  color: black;
+}
 
 .footer-center {
   padding: 50%;
@@ -105,25 +126,11 @@
   text-decoration: underline;
 }
 .download-link {
-  text-decoration: none;
-}
-/* .skills {
-  display: flex;
-  height: 50vh;
-  justify-content: center;
-}
-.skills h3 {
-  justify-content: center;
+  color:#077187;
 }
 
-.skills p{
-  display: flex;
-  flex-wrap: wrap;
-  color: red;
-} */
 
 .extraSpace {
   height: 200px;
 }
 
-/* s */

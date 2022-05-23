@@ -7,7 +7,7 @@ import resume from '../assets/rh_resume.pdf';
 class DownloadLink extends React.Component {
     render() {
         return (
-            <a href={this.props.src} download>{this.props.children}</a>
+            <a className='download-link' href={this.props.src} download>{this.props.children}</a>
         )
     }
   }
@@ -18,16 +18,16 @@ export default function Resume() {
       <>
         <Header />
         <div className="App">
-          <h2 className='download-link'><DownloadLink src={resume}> Download Resume</DownloadLink></h2>
+          <h2><DownloadLink src={resume}> Download Resume</DownloadLink></h2>
           <div className='skills'>
-        <h3>Front-end Proficiences</h3>
+        <h3>Front-end Proficiencies</h3>
           <p>React</p>
           <p>Javascript</p>
           <p>HTML</p>
           <p>Bootstrap</p>
           </div>
           <div className='skills'>
-        <h3>Back-end Proficiences</h3>
+        <h3>Back-end Proficiencies</h3>
           <p>Node.js</p>
           <p>MongoDB</p>
           <p>Mongoose ODM</p>
