@@ -8,8 +8,8 @@ export const Footer = () => {
         <div className="footer">
             <Navbar className="footer-center">
                 <Nav>
-                    <Nav.Link href="https://github.com/bekkahhuss"><img src={github} className="icon"></img></Nav.Link>
-                    <Nav.Link href="https://www.linkedin.com/in/rebekkah-huss-310658135/"><img src={linkedin} className="icon"></img></Nav.Link>
+                    <Nav.Link href="https://github.com/bekkahhuss"><img src={github} alt="" className="icon"></img></Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/rebekkah-huss-310658135/"><img src={linkedin} alt="" className="icon"></img></Nav.Link>
                 </Nav>
                     
             </Navbar>

@@ -14,7 +14,7 @@ function App() {
           <h2>About Me</h2>
             <Row>
               <Col>
-                <img src={photo} alt="photo" className="profilePic" />
+                <img src={photo} alt="" className="profilePic" />
               </Col>
               <Col className='about'>
                 <p >
