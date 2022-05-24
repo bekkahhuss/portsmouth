@@ -15,7 +15,7 @@ export default function Portfolio() {
             <Row className="Row-space">
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder} />
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Shopping With Bitcoin</Card.Title>
                     <Button
@@ -45,7 +45,7 @@ export default function Portfolio() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder}/>
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Walks Of Love</Card.Title>
                     <Button
@@ -73,7 +73,7 @@ export default function Portfolio() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder}/>
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Note Taker</Card.Title>
                     <Button
@@ -105,7 +105,7 @@ export default function Portfolio() {
             <Row className="Row-space">
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder}/>
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Employee Profile</Card.Title>
                     <Button
@@ -131,7 +131,7 @@ export default function Portfolio() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder}/>
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Employee Tracker</Card.Title>
                     <Button
@@ -156,7 +156,7 @@ export default function Portfolio() {
               </Col>
               <Col>
                 <Card>
-                  <Card.Img variant="top" src={placeholder}/>
+                  <img variant="top" src={placeholder} className="theCardImage"/>
                   <Card.Body>
                     <Card.Title>Social Genie</Card.Title>
                     <Button

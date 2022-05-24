@@ -103,9 +103,16 @@
   margin:auto;
   
 }
-.card-img, .card-img-bottom, .card-img-top {
+/* .card-img, .card-img-bottom, .card-img-top {
   width:50%;
+  height: 6rem;
  
+} */
+.theCardImage {
+  width: 6rem;
+  height: 6rem;
+  margin: auto;
+  align-content: center;
 }
 .cardButton {
   background-color:#9ece9a ;
@@ -113,7 +120,10 @@
 }
 
 .footer-center {
-  padding: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 .profilePic {
   height: 400px;
