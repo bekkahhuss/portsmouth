@@ -17,4 +17,4 @@ This single page application showcases my abilites with React and also includes 
 I used  [React-Bootstrap](https://react-bootstrap.github.io/), [Formik](https://formik.org/), and [ReactRouter](https://reactrouter.com/) to build out the features of my portfolio. Users can  navigate to examples of my work, contact me using the Formik form, and download a PDF version of my resume. 
 
 ## Image
-![Example Image](https://github.com/bekkahhuss/asset/star.png)
+![Example Image](https://github.com/bekkahhuss/assets/react-portfolio.png)
